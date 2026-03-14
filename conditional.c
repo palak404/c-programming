@@ -55,6 +55,9 @@ void main()
  
     }
     if(c>a && c>b)
+    {
+        printf("c is greatest");
+    }
     
 
         
