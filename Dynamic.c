@@ -21,7 +21,7 @@ void main()
     scanf("%d",&a);
 
     printf("Display an integer value=%d",a);
-}*/
+}*/ 
 
 
 //Q4. program to input two numbers or integers and display their values -

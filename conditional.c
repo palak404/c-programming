@@ -34,8 +34,7 @@ void main()
 
 //Q3. program to input three numbers and find largest of three numbers using if-else statement
 
-
-#include<stdio.h>
+/*#include<stdio.h>
 void main()
 {
     int a,b,c;
@@ -44,26 +43,74 @@ void main()
     printf("Enter the second number : " );
     scanf("%d",&b);
     printf("Enter the third number : " );
-    scanf("%d",&b);
-    if(a>b && a>c)
-    {
-        printf("a is greatest");
-    }
-    if(b>a && b>c)
-    {
-        printf("b is greatest");
- 
-    }
-    if(c>a && c>b)
-    {
-        printf("c is greatest");
-    }
-    
+    scanf("%d",&c);
 
-        
+   if(a>b && a>c)
+    {
+        printf("a is greatest  ");
+    }
+    else if (b>a && b>c)
+    {
+        printf("b is greatest  " );
+    }
+    else if (c>a && c>b)
+    {
+    printf("c is greatest  " );
+
+    }
     
+}*/
+
+//Q4. program to input three numbers and find smallest of three numbers using if-else statement
+
+/*#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter the first number : " );
+    scanf("%d",&a);
+    printf("Enter the second number : " );
+    scanf("%d",&b);
+    printf("Enter the third number : " );
+    scanf("%d",&c);
+
+   if(a<b && a<c)
+    {
+        printf("a is smallest  ");
+    }
+    else if (b<a && b<c)
+    {
+        printf("b is smallest  " );
+    }
+    else if (c<a && c<b)
+    {
+    printf("c is smallest  " );
+
+    }
+    
+}*/
+
+/*Q5. program to demonstrate if-else statement and 
+(check whether marks are between 80 and 90) marks>80 && marks<90*/
+
+#include<stdio.h>
+void main()
+{
+    int marks = 85;
+    int res;
+    res = marks>80 && marks<90;
+    printf("marks are between 80 and 90");
 
 }
 
 
 
+
+
+
+
+    
+
+
+
+    

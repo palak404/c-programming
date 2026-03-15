@@ -56,15 +56,15 @@ void main()
 //Q6. program to input two numbers and find their sum - C
 
 
-/*#include<stdio.h>
+#include<stdio.h>
 void main()
 {
-    int a=10;
+    int a=40;
     int b=40;
     int c=a+b;
 
     printf("display the sum of two integer numbers = %d",c);
-}*/
+}
 
 
 
