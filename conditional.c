@@ -397,7 +397,7 @@ else if (c<a && c<b)
 
 //Q19. program to convert fahrenheit temp to celsius and vice versa using if-else statement - code
 
-#include<stdio.h>
+/*#include<stdio.h>
 void main()
 {
     char ch='f';
@@ -417,10 +417,25 @@ void main()
           c=((f-32)*5/9);
           printf("celsius to fahrenheit value =%f",c);
     }
-}
+}*/
 
+//Q22. program to input a year and find whether it is a leap year or not using ifelse statement - Code
 
+ /*#include<stdio.h>
+ void main()
+ {
+    int year;
+    printf("Enter any year : ");
+    scanf("%d",&year);
+    if((year%4==0 && year%100 != 0) || (year%400==0))
+    {
+        printf("it is a leap year");
+    }
+    else{
+        printf("it is not leap year");
+    }
     
+ } */ 
 
 
 
