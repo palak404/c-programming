@@ -265,11 +265,11 @@ else{
 if basic>=2500&&basic <4000,hra=20%,da=15% if basic>=4000&&<8000,hra=25%,da=20%,if basic>8000,
 hra=30%,da=25%) .*/
 
-#include<stdio.h>
+/*#include<stdio.h>
 void main()
 {
     float salary,hra,da,t;
-    printf("Enter the salary " : );
+    printf("Enter the salary  : ");
         scanf("%f",&salary);
         if(salary<=2500)
         {
@@ -286,12 +286,152 @@ void main()
             t=salary+hra+da;
             printf("Total salary is =%f",t);
         }
-        else if()
+        else if(salary>=4000 && salary<8000 )
+        {
+            hra=salary*25/100;
+            da=salary*20/100;
+            printf("total hra is = %f",hra);
+            printf("total da is =%f",da);
+            t=salary+hra+da;
+            printf("Total salary is =%f",t);
+        }
+        else if(salary>8000)
+    {
+        hra=salary*30/100;
+        da=salary*25/100;
+        printf("total hra is=%f",hra);
+        printf("total da is=%f",da);
+        t=salary+hra+da;
+        printf("Total salary is=%f",t);
+    }
 
+}*/
+
+//18. program to input three numbers and print them in decending order using if-else state-
+
+
+/*#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter the first number : ");
+    scanf("%d",&a);
+    printf("Enter the second number : ");
+    scanf("%d",&b);
+    printf("Enter the third number : ");
+    scanf("%d",&c);
+if(a>b && a>c)
+{
+    if(b>c)
+    {
+        printf("%d,%d,%d",a,b,c);
+    }
+}
+else if(b>a && b>c)
+{
+    if(a>c)
+    {
+        printf("%d,%d,%d",b,a,c);
+    }
+    else
+    {
+        printf("%d,%d,%d",b,c,a);
+    }
+}
+else if (c>a && c>b)
+
+{
+    if(a>b)
+    {
+        printf("%d,%d,%d",c,a,b);
+    }
+    else{
+        printf("%d,%d,%d",c,b,a);
+    }
+}
+}*/
+
+
+//17. program to input three numbers and print them in assending order using if-else state
+
+/*#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter the first number : ");
+    scanf("%d",&a);
+    printf("Enter the second number : ");
+    scanf("%d",&b);
+    printf("Enter the third number : ");
+    scanf("%d",&c);
+if(a<b && a<c)
+{
+    if(b<c)
+    {
+        printf("%d,%d,%d",a,b,c);
+    }
+}
+else if(b<a && b<c)
+{
+    if(a<c)
+    {
+        printf("%d,%d,%d",b,a,c);
+    }
+    else
+    {
+        printf("%d,%d,%d",b,c,a);
+    }
+}
+else if (c<a && c<b)
+
+{
+    if(a<b)
+    {
+        printf("%d,%d,%d",c,a,b);
+    }
+    else{
+        printf("%d,%d,%d",c,b,a);
+    }
+}
+}*/
+
+//Q19. program to convert fahrenheit temp to celsius and vice versa using if-else statement - code
+
+#include<stdio.h>
+void main()
+{
+    char ch='f';
+    float f,c;
+    
+    if(ch=='f')
+    {
+        printf("Enter the celsius value ");
+        scanf("%f",&c);
+        f=(c*(9/5)+32);
+        printf("Celsius to fahrenheit is =%f",f);
+    }
+    else(ch=='c')
+    {
+         printf("Enter the fahrenheit value ");
+          scanf("%f",&f);
+          c=((f-32)*5/9);
+          printf("celsius to fahrenheit value =%f",c);
+    }
 }
 
 
+    
 
+
+
+
+
+
+    
+
+
+
+    
 
 
     
