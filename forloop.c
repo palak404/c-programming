@@ -212,3 +212,14 @@ void main()
     }
     printf("factorial = %d",fact);
  }*/
+
+ //Q15. program to find whether number entered is prime or not using for statement-
+
+ #include<stdio.h>
+ void main()
+ {
+    int i,num;
+    printf("Enter the number");
+    scanf("%d",&num);
+    for()
+ }
