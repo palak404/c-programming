@@ -215,11 +215,222 @@ void main()
 
  //Q15. program to find whether number entered is prime or not using for statement-
 
- #include<stdio.h>
+ /*#include<stdio.h>
  void main()
  {
+    int i,n,f=0;
+    printf("Enter the number : ");
+    scanf("%d",&n);
+    for(i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            f=1;
+            break;
+        }
+    }
+    if(f==0)
+    {
+        printf("It is a prime numer");
+    }
+    else{
+        printf("It is not a prime number ");
+    }
+ }*/
+
+ //Q16. program to print first 1 to 10 terms of fibonicci series using for statement -
+
+ /*#include<stdio.h>
+ void main()
+ {
+    int a=0,b=1,c;
+    printf(" %d \n %d \n ",a,b);
+    for(int i=2;i<=10;i++)
+    {
+        c=a+b;
+        printf(" %d ",c);
+        a=b;
+        b=c;
+    }
+ }*/
+
+
+ //18. program to print table of a number entered by the user using for
+
+/*#include<stdio.h>
+void main()
+{
     int i,num;
-    printf("Enter the number");
+    printf("Enter a number to print its multiplication table: ");
     scanf("%d",&num);
-    for()
- }
+
+    printf("Multiplication Table of %d :  \n", num);
+    for(i=1; i<=10;i++)
+    {
+        printf("%d * %d = %d\n",num, i, num * i );
+    }
+}*/
+
+//Q17. program to print pattern of stars using for statement (example of nested for loop) - Code
+
+
+/*#include<stdio.h>
+void main()
+{
+    int i,j;
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+            printf(" * ");
+        }
+        printf(" \n ");
+    }
+}*/
+
+/*#include<stdio.h>
+void main()
+{
+    int i,j;
+    for(i=0;i<5;i++)
+    {
+        for(j=0;j<5;j++)
+        {
+        printf(" %d ", j);
+    } 
+    printf(" \n ");
+}
+}*/
+
+/*#include<stdio.h>
+void main()
+{
+    int i,j;                                                              
+    for(i=1;i<=5;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf(" * ",j);
+        }
+        printf(" \n ");
+    }
+}*/
+
+//Q----------------------
+
+/*#include<stdio.h>
+void main()
+{
+    int i,j;                                                              
+    for(i=1;i<=5;i++)
+    {
+        for(j=5;j>=i;j--)
+        {
+            printf(" * ",j);
+        }
+        printf(" \n ");
+    }
+}*/
+
+//Q--------------------------------------
+
+/*#include<stdio.h>
+void main()
+{
+    int i,j,k;
+      for(i=1; i<=5; i++)
+      {
+        for(j=1; j<5-i; j++)
+        {
+            printf(" ");
+        }
+        for(k=1; k<=i; k++)
+        {
+            printf(" * ");
+        }
+        printf(" \n ");
+      }
+}*/
+
+//Q------------------------------------------
+
+/*#include<stdio.h>
+void main()
+{
+    int i,j,k;
+    for(i=1; i<=5; i++)
+    {
+        for(j=5; j>=5; j--)
+        {
+            printf(" ");
+        }
+        for(k=1; k<=(i*2-1); k++)
+        {
+            printf(" * ");
+        }
+        printf(" \n ");
+    }
+}*/
+
+
+
+//Q30 Shopping Discount
+
+/*#include<stdio.h>
+void main()
+{
+    int purchase,discount,total;
+    printf("Enter the amount of purchase : ");
+    scanf("%d", &purchase);
+    if(purchase>=5000)
+    {
+    discount = purchase*20/100;
+    printf("Total Discount is = %d",discount);
+    total = purchase - discount;
+    printf("\nTotal amount = %d",total);
+    }
+    else if(purchase>=2000)
+    {
+        discount = purchase*10/100;
+        printf("\nTotal Discount is = %d",discount);
+        total = purchase - discount;
+        printf("\nTotal discount is = %d",total);
+    }
+    else{
+        printf("\n no discount");
+    }
+}*/
+
+//Qcheck  salary bonus
+
+/*#include<stdio.h>
+void main()
+{
+    float salary,Dis,bonus;
+    printf("Enter the salary : ");
+    scanf("%f",&salary);
+    if(salary>=50000)
+    {
+        Dis = salary*20/100;
+        printf("Total Dis = %f",Dis);
+        bonus = salary - Dis ;
+        printf("\nTotal bonus amount = %f",bonus);
+    }
+    else if(salary>=30000)
+    {
+        Dis = salary*10/100;
+        printf("\nTotal Dis = %f",Dis);
+        bonus = salary - Dis;
+        printf("\nTotal bonus =%f",bonus);
+    }
+    else 
+    {
+        Dis = salary*5/100;
+        printf("\nTotal Dis = %f",Dis);
+        bonus = salary - Dis;
+        printf("\nTotal bonus =%f",bonus);
+    }
+}*/
+
+//Q
+

@@ -297,21 +297,56 @@ interest - si=p*r*t/100*/
 void main()
 {
     float p,r,si;
-     int t;
+    int t,choice,convertedTime;
     printf("Enter the no. of p  = " );
     scanf("%f",&p);
     printf("Enter the no. of r = " );
     scanf("%f",&r);
     printf("Enter the no. of t = " );
     scanf("%d",&t);
+    printf("Enter the choice : ");
+    scanf("%d",&choice);
 
-    printf("\nDisplay the value of p = %f",p);
-    printf("\nDisplay the value of r = %f",r);
-    printf("\nDisplay the value of t = %d",t);
+    switch(choice)
+    {
+        case 1:
+        printf("Enter the value of time in years :");
+        scanf("%d",&t);
+        convertedTime = t * 365;
+        printf("time in years =%d",convertedTime);
+        break;
 
-    si = p*r*t/100;
+        case 2:
+        printf("Enter the value of time in days :");
+        scanf("%d",&t);
+        convertedTime = t * 1;
+        printf("time in days =%d",convertedTime);
+        break;
+
+        case 3:
+        printf("Enter the value of time in week :");
+        scanf("%d",&t);
+        convertedTime = t * 7;
+        printf("time in week = %d",convertedTime);
+        break;
+
+        case 4:
+        printf("Enter the value of time in month :");
+        scanf("%d",&t);
+        convertedTime = t * 30;
+        printf("time in weak = %d",convertedTime);
+        break;
+
+        default :
+        printf("Invalid choice");
+        
+    }
+
+
+     si = p*r*t/100;
     printf("\ncompute the simple intrest = %f",si);
 }*/
+
 
 //Q19. program to input length and breadth of rectangle and find area of rectangle-
 
