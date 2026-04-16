@@ -141,3 +141,113 @@ void main()
         return 0;
     }*/
 
+//Q41. program to find factorial of number using for loop with decrement operator
+
+/*#include<stdio.h>
+int main()
+{
+    int i,n=2,fact=1;
+    for(i=n;i>=1;i--)
+    {
+        fact=fact*i;
+    }
+      printf("%d",fact);
+      return 0;
+}*/
+
+/*#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int n, i, j;
+    double sum = 0.0, fact, term;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        // Calculate Factorial of i
+        fact = 1.0;
+        for (j = 1; j <= i; j++) {
+            fact *= j;
+        }
+
+        // Calculate Term (i^i / i!)
+        // pow(i, i) is used for convenience from math.h
+        term = pow(i, i) / fact;
+        
+        // Add term to total sum
+        sum += term;
+    }
+
+    printf("Sum of the series: %lf\n", sum);
+
+    return 0;
+}
+*/
+
+/*#include<stdio.h>
+void main()
+{
+    int day=1;
+    switch(day)
+    {
+    case 1:
+       printf("monday");
+        break;
+     case 2:
+       printf("tuesday");
+        break;
+         case 3:
+       printf("wednesday");
+        break;
+    default:
+        break;
+    }
+}*/
+
+
+/*#include<stdio.h>
+int main()
+{
+    float bal=500,deposit,witddraw;
+    int choice;
+    while(1){
+    printf("press 1 for deposite amt\n press 2 for widthdraw amt\n                                                                                                                                                                                                                                                                                          press 3 for check balance\n press 4 logout\n");
+    scanf("%d",&choice);
+    switch (choice)
+    {
+    case 1:
+        printf("enter the deposite amount");
+        scanf("%f",&deposit);
+        bal+=deposit;
+        printf("total deposite amount =%f",deposit);
+        break;
+
+        case 2:
+        printf("enter the withdraw amount");
+        scanf("%f",&witddraw);
+        if(bal>witddraw)
+        {
+            bal=bal-witddraw;
+            printf("total withdraw amount =%f",witddraw);
+        }
+        else{
+            printf("invalid amount");
+        }
+        
+        break;
+    case 3:
+    printf("total balance =%f",bal);
+    break;
+    case 4:
+   printf("thanku for enjoy atm services");
+   return 0.0;
+   
+
+    default:
+       printf("invalid choice");
+    }
+}
+ return 0;
+}*/
